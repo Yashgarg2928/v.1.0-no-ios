@@ -118,7 +118,7 @@ export function ReelCard({ video, isActive, isMuted, onToggleMute }: ReelCardPro
       <video
         ref={videoRef}
         src={video.url}
-        className="max-h-full max-w-full w-auto h-auto object-contain"
+        className="max-h-full max-w-full w-full h-full object-cover"
         loop
         playsInline
         muted={isMuted}

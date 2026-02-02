@@ -43,7 +43,7 @@ export function App() {
   }
 
   return (
-    <div className="h-screen w-screen bg-black overflow-hidden">
+    <div className="h-[100dvh] w-screen bg-black overflow-hidden">
       {/* Reels Container - Full Screen */}
       <div
         ref={containerRef}
